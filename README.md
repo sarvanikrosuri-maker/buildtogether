@@ -34,3 +34,5 @@ The application is developed using **HTML, CSS, and JavaScript**, with dummy dat
 ## Project Purpose
 
 This project was developed as a frontend prototype to demonstrate how a collaborative team formation platform can function before integrating backend services.
+
+##Frontend prototype of BuildTogether platform.
