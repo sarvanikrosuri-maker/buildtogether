@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create Project</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<h2 style="text-align:center">Create Project</h2>
+
+<form class="form" id="projectForm">
+
+<input type="text" placeholder="Project Title" required>
+
+<input type="text" placeholder="Required Skills">
+
+<input type="number" placeholder="Team Size">
+
+<textarea placeholder="Project Description"></textarea>
+
+<button>Create Project</button>
+
+</form>
+
+<script>
+
+document.getElementById("projectForm").onsubmit=function(){
+
+alert("Project Created!")
+
+return false
+
+}
+
+</script>
+
+</body>
+</html>

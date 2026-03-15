@@ -1,0 +1,96 @@
+body{
+font-family: Arial;
+margin:0;
+padding:0;
+background:#f4f4f4;
+}
+
+/* Navbar */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#333;
+color:white;
+padding:15px;
+}
+
+.navbar ul{
+list-style:none;
+display:flex;
+}
+
+.navbar ul li{
+margin-left:20px;
+}
+
+.navbar ul li a{
+color:white;
+text-decoration:none;
+}
+
+/* Hero Section */
+
+.hero{
+text-align:center;
+padding:80px;
+background:#007BFF;
+color:white;
+}
+
+.btn{
+display:inline-block;
+padding:10px 20px;
+background:white;
+color:#007BFF;
+text-decoration:none;
+border-radius:5px;
+margin-top:10px;
+}
+
+/* Features */
+
+.features{
+display:flex;
+justify-content:center;
+padding:40px;
+}
+
+.feature{
+background:white;
+padding:20px;
+margin:10px;
+border-radius:8px;
+width:250px;
+box-shadow:0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+
+footer{
+text-align:center;
+padding:20px;
+background:#333;
+color:white;
+}
+
+.form{
+width:300px;
+margin:40px auto;
+display:flex;
+flex-direction:column;
+}
+
+.form input{
+margin:10px 0;
+padding:10px;
+}
+
+.form button{
+padding:10px;
+background:#007BFF;
+color:white;
+border:none;
+cursor:pointer;
+}
